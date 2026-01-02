@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # 1. Load your saved pipeline
-model = joblib.load('house_predicition_model.pkl')
+model = joblib.load('house_price_model.pkl')
 
 st.title("King County House Price Predictor")
 st.markdown("Enter basic property details to get an instant valuation.")
